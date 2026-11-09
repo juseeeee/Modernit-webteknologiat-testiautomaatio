@@ -1,0 +1,15 @@
+### Varaus, jonka aiheessa on HTML-koodia
+POST http://localhost:3000/api/varaukset
+Content-Type: application/json
+X-API-Avain: opiskelija-91c2
+
+{
+  "tila": "A102",
+  "alku": "2026-10-20T09:00",
+  "loppu": "2026-10-20T10:00",
+  "varaaja": "Testi Testaaja",
+  "aihe": "<img src=x onerror=\"document.querySelector('h1').textContent='Sivu kaapattu'\">"
+}
+### id: dad67dd7-8739-4921-914f-f2647940fc9f
+
+DELETE http://localhost:3000/api/varaukset/dad67dd7-8739-4921-914f-f2647940fc9f

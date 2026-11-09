@@ -1,0 +1,26 @@
+### 1. Ilman avainta
+POST http://localhost:3000/api/varaukset
+Content-Type: application/json
+
+{ "tila": "A101", "alku": "2026-10-20T12:00", "loppu": "2026-10-20T13:00", "varaaja": "Joku muu", "aihe": "Ryhmätyö" }
+
+### 2. Vaaralla avaimella
+POST http://localhost:3000/api/varaukset
+Content-Type: application/json
+X-API-Avain: arvaus
+
+{ "tila": "A101", "alku": "2026-10-20T12:00", "loppu": "2026-10-20T13:00", "varaaja": "Joku muu", "aihe": "Ryhmätyö" }
+
+### 3. Ketun avaimella
+POST http://localhost:3000/api/varaukset
+Content-Type: application/json
+X-API-Avain: opiskelija-91c2
+
+{ "tila": "A101", "alku": "2026-10-20T12:00", "loppu": "2026-10-20T13:00", "varaaja": "Joku muu", "aihe": "Ryhmätyö" }
+
+### 4. Poisto ilman avainta (vaihda id)
+DELETE http://localhost:3000/api/varaukset/tahan-id
+
+### 5. Virtanen poistaa (vaihda id)
+DELETE http://localhost:3000/api/varaukset/tahan-id
+X-API-Avain: opiskelija-44be
