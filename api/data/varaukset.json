@@ -31,22 +31,6 @@
   ],
   "varaukset": [
     {
-      "id": "v1",
-      "tila": "A101",
-      "alku": "2026-10-20T08:15",
-      "loppu": "2026-10-20T09:45",
-      "varaaja": "Opettaja Aalto",
-      "aihe": "Ohjelmointi"
-    },
-    {
-      "id": "v2",
-      "tila": "A101",
-      "alku": "2026-10-20T10:00",
-      "loppu": "2026-10-20T11:30",
-      "varaaja": "Opettaja Aalto",
-      "aihe": "Tietokannat"
-    },
-    {
       "id": "v3",
       "tila": "B201",
       "alku": "2026-10-20T12:00",
@@ -61,14 +45,6 @@
       "loppu": "2026-10-21T15:00",
       "varaaja": "Opintotoimisto",
       "aihe": "Infotilaisuus"
-    },
-    {
-      "id": "6c4ddfc7-666f-4e68-879c-e58d29836ebe",
-      "tila": "A101",
-      "alku": "2026-10-20T12:00",
-      "loppu": "2026-10-20T13:00",
-      "varaaja": "Joku muu",
-      "aihe": "Ryhmätyö"
     }
   ]
 }
